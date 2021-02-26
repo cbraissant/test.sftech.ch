@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/sftech/test.sftech.ch/
+    - /bin/cp -R public/* $DEPLOYPATH
